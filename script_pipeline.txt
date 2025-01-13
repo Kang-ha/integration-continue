@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Téléchargement des sources') {
             steps {
-                  git branch: 'main', url: 'https://github.com/<nom_compte>/<nom_depot>.git'
+                  git branch: 'main', url: 'https://github.com/Kang-ha/integration-continue'
             }
         }
         stage('Compilation des sources') {
