@@ -4,6 +4,10 @@
 /****************** Recherche du maximum ***********************/
 float maximum (float n1, float n2 )
 {
+	if (n1 > n2){
+		printf(n1);
+    } else {
+        printf(n2);}  
    return 0;
 }
 
